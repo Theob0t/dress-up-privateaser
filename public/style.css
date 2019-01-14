@@ -1,0 +1,49 @@
+body {
+  background-color: powderblue;
+  text-align: center;
+}
+h1 {
+  color: blue;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  background-color: #3CBC8D;
+  color: white;
+}
+
+input[type=number] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: white;
+  color: black;
+}
+
+.js-option{  display: inline-block;
+    justify-content: space-between;
+    padding: 15px 32px;
+	font-style: oblique
+}
+
+#compute{
+	
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input[type=checkbox] {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
